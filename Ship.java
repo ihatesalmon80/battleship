@@ -11,6 +11,14 @@ public class Ship {
 		lenShip = length;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
+	public int getLength() {
+		return lenShip;
+	}
+	
 	public int getposRow() {
 		return posRow;
 	}
@@ -18,11 +26,16 @@ public class Ship {
 		posRow = r;
 	}
 	public int getposCol() {
-		return posRow;
+		return posCol;
 	}
 	public void setposCol(int c) {
 		posCol = c;
 	}
+
+	public boolean getOrientation() {
+		return horiz;
+	}
+	
 	public void setOrientation(boolean h) {
 		horiz = h;
 	}
